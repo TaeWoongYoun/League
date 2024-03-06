@@ -8,28 +8,64 @@
 </head>
 <body>
     <div class="content">
+        <input type="radio" name="text" id="modal1">
+        <input type="radio" name="text" id="modal2">
+        <input type="radio" name="text" id="modal3">
+        <input type="radio" name="text" id="modal4">
+        <input type="radio" name="text" id="modal5">
+        <input type="radio" name="text" id="modal6">
         <div class="league">
             <a href="#night">나이트리그</a>
             <a href="#week">주말리그</a>
             <a href="#dawn">새벽리그</a>
         </div>
         <div class="rank" id="night">
-            <p>투수순위1
-
-            </p>
-            <p>타자순위</p>
+            <label for="modal1" class="openBtn"><p>투순순위</p></label>
+            <label for="modal2" class="openBtn"><p>타자순위</p></label>
         </div>
         <div class="rank" id="week">
-            <p>투수순위2
-
-            </p>
-            <p>타자순위</p>
+            <label for="modal3" class="openBtn"><p>투수순위</p></label>
+            <label for="modal4" class="openBtn"><p>타자순위</p></label>
         </div>
         <div class="rank" id="dawn">
-            <p>투수순위3
-
-            </p>
-            <p>타자순위</p>
+            <label for="modal5" class="openBtn"><p>투수순위</p></label>
+            <label for="modal6" class="openBtn"><p>타자순위</p></label>
+        </div>
+        <div class="modalBox one">
+            <label for="modal1" class="closeBtn"><p>close</p></label>
+            <div class="text">
+                <p>나이트리그 투수순위</p>
+            </div>
+        </div>
+        <div class="modalBox two">
+            <label for="modal2" class="closeBtn"><p>close</p></label>
+            <div class="text">
+                <p>나이트리그 타자순위</p>
+            </div>
+        </div>
+        <div class="modalBox thr">
+            <label for="modal3" class="closeBtn"><p>close</p></label>
+            <div class="text">
+                <p>주말리그 투수순위</p>
+            </div>
+        </div>
+        <div class="modalBox fou">
+            <label for="modal4" class="closeBtn"><p>close</p></label>
+            <div class="text">
+                <p>주말리그 타자순위</p>
+            </div>
+        </div>
+        <div class="modalBox fiv">
+            <label for="modal5" class="closeBtn"><p>close</p></label>
+            <div class="text">
+                <p>새벽리그 투수순위</p>
+            </div>
+        </div>
+        <div class="modalBox six">
+            <label for="modal6" class="closeBtn"><p>close</p></label>
+            <div class="text">
+                <p>새벽리그 타자순위</p>
+            </div>
         </div>
     </div>
 </body>
